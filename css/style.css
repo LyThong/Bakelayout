@@ -281,6 +281,7 @@ header, section, footer, aside, nav, main, article, figure {
 .gallery-item{
     display: grid;
     grid-template-columns: repeat(1fr, 4);
+    grid-gap: 1.5rem;
 }
 
 .item1{
@@ -515,7 +516,39 @@ textarea.form-control{
     }
     
 
+}
+.footer{
+    background-color: black;
+}
+.footer .footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70%;
+    margin: 50px auto;
+    grid-gap: 10px;
 
+}
+.footer-content .item{
+    color: white;
+}
+.footer-content .item h1{
 
+    color: #d21a83;
+    font-size: 35px;
+}
+
+.footer-content .item p{
+
+    font-size: 20px;
+}
+.footer-content .item i{
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.item ul li {
+    border-bottom: 2px dashed white;
 }
 
